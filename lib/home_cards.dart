@@ -1,5 +1,8 @@
-import 'package:flutter/material.dart';
 import 'package:betterme/goals_page.dart';
+import 'package:flutter/material.dart';
+//import 'package:betterme/goals_page.dart';
+import 'package:betterme/goals_details.dart';
+
 
 class HomeCards extends StatefulWidget {
   const HomeCards({super.key});

@@ -5,7 +5,7 @@ class AppBarView extends StatefulWidget implements PreferredSizeWidget {
   final Size preferredSize;
 
   AppBarView({super.key})
-  :preferredSize = Size.fromHeight(56.0);
+  :preferredSize = const Size.fromHeight(56.0);
 
   @override
   State<AppBarView> createState() => _AppBarViewState();
